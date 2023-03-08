@@ -11,7 +11,7 @@
 			"addLabels": [
 				"chore-renovate-minor"
 			],
-			"matchUpdateTypes": ["minor", "patch"],
+			"matchUpdateTypes": ["minor", "patch"]
 		},
 		{
 			"groupName": "major-updates",
