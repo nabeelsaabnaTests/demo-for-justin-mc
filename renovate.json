@@ -13,7 +13,6 @@
 			"matchUpdateTypes": ["minor", "patch"]
 		},
 		{
-			"groupName": "major-updates",
 			"additionalBranchPrefix": "mjr_",
 			"commitMessagePrefix": "mjr: ![confidence](https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/confidence-slim/{{{fromVersion}}})  ",
 			"addLabels": [
