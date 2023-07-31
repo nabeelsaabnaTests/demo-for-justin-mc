@@ -32,7 +32,7 @@
     "test": "run-s lint type-strict-check"
   },
   "dependencies": {
-    "renovate": "34.152.2"
+    "renovate": "34.160.0"
   },
   "devDependencies": {
     "@jest/globals": "29.3.1",
