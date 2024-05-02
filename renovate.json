@@ -2,18 +2,6 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
 		"config:base"
-	],
-	"packageRules": [
-		{
-			"additionalBranchPrefix": "min_",
-			"commitMessagePrefix": "min: ![confidence](https://developer.mend.io/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' depName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true) ",
-			"matchUpdateTypes": ["minor", "patch"]
-		},
-		{
-			"additionalBranchPrefix": "mjr_",
-			"commitMessagePrefix": "mjr: ![confidence](https://developer.mend.io/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' depName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)  ",
-			"matchUpdateTypes": ["major"]
-		}
 	]
 }
 
